@@ -68,11 +68,6 @@ class AppDatabase extends _$AppDatabase {
       );
 
 
-
-  // AI_PROMPT(Perplexity): I am having trouble figuring out how to create the DAOs for my Tables. Can you give me an example using the Deck Table?
-  // AI_RESPONSE(Perplexity): Outputted the code listed below.
-  // REFLECTION: What I learned from this is just a little refresher/ finding a different way to get the unique ID for the deck and firugint out how to insert
-  // it into the database and keep track of any future modifications, such as deleting or updating the deck. With this knowledge I reapplied to the other tables as followed.
   // -- Deck Database Access Objects (DAOs) --
   Stream<List<Deck>> watchAllDecks() => select(decks).watch();
   // This gets a deck by their ID.

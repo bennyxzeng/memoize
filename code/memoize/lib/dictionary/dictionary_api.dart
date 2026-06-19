@@ -27,11 +27,6 @@ class DictionaryAPI {
       final responseBody = jsonDecode(responseFromAPI.body) as List;
       final defs = <String>[];
 
-      // AI_Prompt(Perplexity): I am trying to use this dictionary API to grab and make a list of definitions to choose from given a word. How would I implement it
-      // AI_RESPONSE(Perplexity): Suggested the nested for loop shown below.
-      // REFLECTION: Ben - As someone who is familiar with API calls, I was just confused on how to use the data I got from the API and gather it into a list of definitions.
-      // As from my understanding of the code generated, we are going through each dictionary entry or word that was inputted by the user, then we gets the word meaning, and then pull
-      // all the definitions for that word and only return up to five of the definitions purely to maintain UI complexity.
       // This nested loop is used to build the list of definitions from the API response.
       for (final entry in responseBody) {
         for (final meaning in (entry['meanings'] as List? ?? [])) {

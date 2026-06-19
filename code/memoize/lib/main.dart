@@ -93,12 +93,6 @@ class MemoizeApp extends StatelessWidget {
     );
   }
 
-  // AI_PROMPT(Perplexity): Asked for help on how to create a light and dark mode that changed the entire app UI using the Brightness enum. I provided
-  // a bit of code that I saw from a video tutorial.
-  // AI_RESPONSE(Perplexity): It generated the code below which slightly modified my original code.
-  // REFLECTION: I originally found a video tutorial about light and dark mode on youtube and while I did have the main functionality working of the color changing
-  // from light to dark, not all the things like if I swap to dark mode, the title 'Memoize' that was in black text did not swap to white text. So that's when
-  // I prompted AI to help me resolve that problem for me.
   // This is a helper function that builds the ThemeData for both the light and dark mode.
   // Parameters:
   // - brightness: A Brightness value either .light .or .dark.
