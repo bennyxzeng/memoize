@@ -10,15 +10,28 @@ Name(s): Eric Li, Benjamin Zeng
 - The name of our app is called Memoize. It is a flashcard app designed and catered to help students and any curious learners with providing them a way to practice spaced-reptition memorization for vocabulary, concepts, or definitions. All users can create a deck in which they can then add flashcards that can contain multiple definitions and add an optional hint if they desired to their deck and then use our practice mode where they can go over each card one at a time. We pull our definitions from a free dictionary API.
 
 # Build Instructions
-1) To run our app, make sure you are in the project root of the file (or in the same level where our pubspec.yaml is stored). Then run 'flutter pub get' in your terminal to install all necessary dependencies to run our app.
-2) Next, in your terminal, run the following command, 'dart run build_runner build' to generate the Drift Database code.
-3) Lastly, you can now finally run 'flutter run' to access and interact with our app!
+1) Clone the repository to an IDE of your choice.
+2) Then to run our app, make sure you are in the project root of the file (or in the same level where our pubspec.yaml is stored). Then run 'flutter pub get' in your terminal to install all necessary dependencies to run our app.
+3) Next, in your terminal, run the following command, 'dart run build_runner build' to generate the Drift Database code.
+4) Lastly, you can now finally run 'flutter run' to access and interact with our app!
 
 # Requirements
 - NO API keys required.
-- Should be able to be run on all iOS/Android Devices and Emulator. (Note: We only tested through a physical Android Device and Emulator)
+- An iOS or Android Device.
 - Flutter and Dart required.
 - Use an IDE like VSCode to run the app.
+
+# Features
+- The ability to create, edit, organize, and practice your flashcards all on your mobile device.
+- Lookup definitions of terms when creating a new flashcard via Dictionary API calls.
+- Add multiple definitions to a flashcard.
+- Undo deletion of a deck or flashcard.
+- Light and Dark Mode Theme Toggle.
+- Multiple language support for our app UI.  (English, Spanish, and Chinese)
+- Users data are stored locally on their device using Drift.
+- In practice mode, you are able to long press on the screen for a hint, double tap to skip, shake to shuffle the deck, and also swipe left and right to move on to the next flashcard.
+- Semantics labeled added throughout the app for accessibility and screen readers.
+
 
 # Project Layout
 - The project layout is structured in a very well organized manner. For anyone who view this code, we personally made it so that most required features has their own folder and files associated with it. For example, for the requirement of querying web services using APIs, since we decided on using a dictionary API to get the definitions. We created a dictionary folder and inside that folder contain the dictionary_api.dart file. Some tradeoffs of this is that instead of having multiple files for example having a seperate file for the Tables for the database like we did in our Journal Assignment. We decided to put that all in one file as long as it is well documented.
