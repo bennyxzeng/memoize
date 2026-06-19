@@ -1,0 +1,72 @@
+{
+  "@@locale": "zh",
+
+  "appTitle": "Memoize",
+  "newDeck": "新建牌组",
+  "editDeck": "编辑牌组",
+  "deleteDeck": "删除牌组",
+  "deckName": "牌组名称",
+  "deckDescription": "描述（可选）",
+  "save": "保存",
+  "cancel": "取消",
+  "delete": "删除",
+  "required": "必填",
+
+  "noDecks": "暂无牌组。\n点击 + 创建新牌组。",
+  "deleteDeckTitle": "删除牌组？",
+  "deleteDeckMessage": "该牌组中的所有卡片也将被删除。",
+  "deckDeleted": "牌组已删除",
+
+  "addCard": "添加卡片",
+  "editCard": "编辑卡片",
+  "deleteCard": "删除",
+  "word": "单词",
+  "definition": "定义",
+  "definitionN": "定义 {n}",
+  "@definitionN": {
+    "placeholders": {
+      "n": { "type": "int" }
+    }
+  },
+  "hint": "提示（可选）",
+  "addAnotherDefinition": "添加另一个定义",
+  "lookUpDefinitions": "查找定义",
+  "noDefinitionsFound": "未找到定义。",
+  "pleaseAddDefinition": "请至少添加一个定义。",
+  "selectDefinition": "选择要添加的定义",
+  "deleteCardTitle": "删除卡片？",
+  "deleteCardMessage": "此卡片将被永久删除。",
+  "cardDeleted": "卡片已删除",
+
+  "noCards": "暂无卡片。\n点击 + 添加您的第一张卡片。",
+  "practice": "练习",
+  "addCardTooltip": "添加卡片",
+  "editCardTooltip": "编辑卡片",
+
+  "sessionComplete": "本次学习完成！",
+  "cardsStudied": "已学习卡片：{count}",
+  "@cardsStudied": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "restart": "重新开始",
+  "backToDeck": "返回牌组",
+  "deckShuffled": "牌组已打乱！",
+  "hintLabel": "提示：",
+  "noHintAvailable": "暂无提示",
+  "holdForHint": "长按以显示提示",
+
+  "switchToLight": "切换到浅色模式",
+  "switchToDark": "切换到深色模式",
+  "language": "语言",
+  "undo": "撤销",
+  "redo": "重做",
+
+  "english": "英语",
+  "spanish": "西班牙语",
+  "chinese": "中文",
+
+  "tapToFlip": "轻触翻转 ",
+  "skip": "跳"
+}

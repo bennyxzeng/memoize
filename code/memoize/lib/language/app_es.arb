@@ -1,0 +1,72 @@
+{
+  "@@locale": "es",
+
+  "appTitle": "Memoize",
+  "newDeck": "Nueva Baraja",
+  "editDeck": "Editar Baraja",
+  "deleteDeck": "Eliminar Baraja",
+  "deckName": "Nombre de la Baraja",
+  "deckDescription": "Descripción (opcional)",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "required": "Requerido",
+
+  "noDecks": "Sin barajas todavía.\nToca + para crear una nueva baraja.",
+  "deleteDeckTitle": "¿Eliminar Baraja?",
+  "deleteDeckMessage": "Todas las tarjetas en esta baraja también serán eliminadas.",
+  "deckDeleted": "Baraja eliminada",
+
+  "addCard": "Agregar Tarjeta",
+  "editCard": "Editar Tarjeta",
+  "deleteCard": "Eliminar",
+  "word": "Palabra",
+  "definition": "Definición",
+  "definitionN": "Definición {n}",
+  "@definitionN": {
+    "placeholders": {
+      "n": { "type": "int" }
+    }
+  },
+  "hint": "Pista (opcional)",
+  "addAnotherDefinition": "Agregar otra definición",
+  "lookUpDefinitions": "Buscar definiciones",
+  "noDefinitionsFound": "No se encontraron definiciones.",
+  "pleaseAddDefinition": "Por favor agrega al menos una definición.",
+  "selectDefinition": "Selecciona una definición para agregar",
+  "deleteCardTitle": "¿Eliminar Tarjeta?",
+  "deleteCardMessage": "Esta tarjeta será eliminada permanentemente.",
+  "cardDeleted": "Tarjeta eliminada",
+
+  "noCards": "Sin tarjetas todavía.\nToca + para agregar tu primera tarjeta.",
+  "practice": "Practicar",
+  "addCardTooltip": "Agregar Tarjeta",
+  "editCardTooltip": "Editar Tarjeta",
+
+  "sessionComplete": "¡Sesión Completa!",
+  "cardsStudied": "Tarjetas estudiadas: {count}",
+  "@cardsStudied": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "restart": "Reiniciar",
+  "backToDeck": "Volver a la Baraja",
+  "deckShuffled": "¡Baraja mezclada!",
+  "hintLabel": "Pista:",
+  "noHintAvailable": "Sin pista disponible",
+  "holdForHint": "Mantén presionado para revelar la pista",
+
+  "switchToLight": "Cambiar a Modo Claro",
+  "switchToDark": "Cambiar a Modo Oscuro",
+  "language": "Idioma",
+  "undo": "Deshacer",
+  "redo": "Rehacer",
+
+  "english": "Inglés",
+  "spanish": "Español",
+  "chinese": "Chino",
+
+  "tapToFlip": "Toca para voltear",
+  "skip": "Saltar"
+}

@@ -1,0 +1,72 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Memoize",
+  "newDeck": "New Deck",
+  "editDeck": "Edit Deck",
+  "deleteDeck": "Delete Deck",
+  "deckName": "Deck Name",
+  "deckDescription": "Description (optional)",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "required": "Required",
+
+  "noDecks": "No decks yet.\nTap + to create a new deck.",
+  "deleteDeckTitle": "Delete Deck?",
+  "deleteDeckMessage": "All cards in this deck will also be deleted.",
+  "deckDeleted": "Deck deleted",
+
+  "addCard": "Add Card",
+  "editCard": "Edit Card",
+  "deleteCard": "Delete",
+  "word": "Word",
+  "definition": "Definition",
+  "definitionN": "Definition {n}",
+  "@definitionN": {
+    "placeholders": {
+      "n": { "type": "int" }
+    }
+  },
+  "hint": "Hint (optional)",
+  "addAnotherDefinition": "Add another definition",
+  "lookUpDefinitions": "Look up definitions",
+  "noDefinitionsFound": "No definitions found.",
+  "pleaseAddDefinition": "Please add at least one definition.",
+  "selectDefinition": "Select a definition to add",
+  "deleteCardTitle": "Delete Card?",
+  "deleteCardMessage": "This card will be permanently deleted.",
+  "cardDeleted": "Card deleted",
+
+  "noCards": "No cards yet.\nTap + to add your first card.",
+  "practice": "Practice",
+  "addCardTooltip": "Add Card",
+  "editCardTooltip": "Edit Card",
+
+  "sessionComplete": "Session Complete!",
+  "cardsStudied": "Cards studied: {count}",
+  "@cardsStudied": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "restart": "Restart",
+  "backToDeck": "Back to Deck",
+  "deckShuffled": "Deck shuffled!",
+  "hintLabel": "Hint:",
+  "noHintAvailable": "No hint available",
+  "holdForHint": "Tap and hold to reveal hint",
+
+  "switchToLight": "Switch to Light Mode",
+  "switchToDark": "Switch to Dark Mode",
+  "language": "Language",
+  "undo": "Undo",
+  "redo": "Redo",
+
+  "english": "English",
+  "spanish": "Spanish",
+  "chinese": "Chinese",
+
+  "tapToFlip": "Tap to flip",
+  "skip": "skip"
+}
